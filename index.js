@@ -22,7 +22,7 @@ function getPassword() {
     var error = document.getElementById("error");
     error.style.display = "none";
 
-    fetch("http://15.207.79.253:8969/passphrase", {
+    fetch("https://api.sewahub.in:445/passphrase", {
         method: 'POST', // or 'PUT'
         headers: {
             'Content-Type': 'application/json',
